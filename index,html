@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Practica Presencial</title>
+</head>
+<body>
+    <h1>WEB-CALC</h1>
+    <p>Bienvenido puedes utilizar el programa para poder hacer operaciones aritmeticas</p>
+    <div>
+        <p>A:</p>
+        <input type="text" id="A" >
+        <p>B:</p>
+        <input type="text" id="B">
+    </div><br>
+    <div>
+        <button  type="button" onclick="suma()">Suma</button>
+        <button type="button" onclick="resta()">Resta</button>
+        <button type="button"onclick="multiplicacion()">Multiplicación</button>
+        <button type="button"onclick="division()">División</button>
+    </div>
+    <div>
+        <p>Resultado</p>
+        <input type="text" id="resultado">
+        <p>historial</p>
+        <textarea rows="20" cols="100" id="historial"></textarea>
+    </div>
+
+    <script>
+        function suma(){
+            var a=document.querySelector('#A')
+            var b=document.querySelector('#B')
+            var op="suma"
+            
+        }
+
+        function resta(){
+
+        }
+        function multiplicacion(){
+
+        }
+        function division(){
+
+        }
+
+    </script>
+
+</body>
+</html>
